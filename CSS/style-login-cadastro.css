@@ -164,6 +164,8 @@ form.login-form{
   background-color: #013c36 !important;
 }
 
+/*Painel lateral*/
+
 .painel-container{
   position: absolute;
   height: 100%;
@@ -231,3 +233,44 @@ form.login-form{
 .painel-da-direita .content{
   transform: translateX(800px);
 }
+
+/*Fim do painel lateral*/
+
+/*Animação*/
+.container-2.cadastro-form-mode{
+  transform: translate(100%, -50%);
+  right: 52%;
+}
+
+.container-2.cadastro-form-mode .painel-da-esquerda .image,
+.container-2.cadastro-form-mode .painel-da-esquerda .content{
+  transform: translateX(-800px);
+}
+
+.container-2.cadastro-form-mode .cadastro-login{
+  left: 25%;
+}
+
+.container-2.cadastro-form-mode form.login-form{
+  opacity: 1;
+  z-index: 2;
+}
+
+.container-2.cadastro-form-mode form.cadastro-form{
+  opacity: 0;
+  z-index: 1;
+}
+
+.container-2.cadastro-form-mode .painel-da-direita .image,
+.container-2.cadastro-form-mode .painel-da-direita .content{
+  transform: translateX(0%);
+}
+
+.container-2.cadastro-form-mode .painel-da-esquerda{
+  pointer-events: none;
+}
+
+.container-2.cadastro-form-mode .painel-da-direita{
+  pointer-events: all;
+}
+/*Fim da animação*/
