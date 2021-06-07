@@ -30,6 +30,7 @@ h1{
 #hud-item{
   width: 100%;
 }
+
 .choice-container-2{
   display: flex;
   margin-bottom: 0.8rem;
@@ -102,8 +103,52 @@ h1{
   width:0%;
 }
 
-@media screen and (max-width: 864px){
+@media screen and (max-width: 900px){
   .choice-container-2{
     min-width: 40rem;
+  }
+
+  #score{
+    font-size: 4.5rem;
+    color: #F2DFBB !important;
+  }
+  
+  #hud-prefix{
+    font-size: 21px;
+    color: #F2DFBB !important;
+  }
+  
+  #hud-item{
+    width: 100%;
+  }
+  
+  #progressBar{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: none;
+  }
+
+  #progressBarFull{
+    height: 100%;
+    background: rgb(11, 223, 36);
+    width:100%;
+  }
+
+  #hud{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hud-prefix{
+    color: #F2DFBB !important;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .hud-main-text{
+    text-align: center;
   }
 }

@@ -87,3 +87,12 @@
     }
   }
   /*Fim das animações*/
+
+  /*Responsividade */
+@media (min-width: 300px) and (max-width: 864px) {
+    .tela-home{
+        width: 100% !important;
+        height: 100vh;
+    }
+}
+  /*Fim da responsividade*/
