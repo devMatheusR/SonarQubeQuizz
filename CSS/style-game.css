@@ -23,7 +23,10 @@ h1{
 }
 
 #hud-prefix{
-  font-size: 21px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #F2DFBB !important;
 }
 
@@ -33,11 +36,11 @@ h1{
 
 .choice-container-2{
   display: flex;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
   width: 100%;
   border-radius: 4px;
   background: #F2DFBB !important;
-  min-width: 80rem;
+  min-width: 100rem;
 }
 
 .choice-container-2:hover{
@@ -65,8 +68,8 @@ h1{
 }
 
 #question{
-  margin: 30px 20px 30px 20px;
-  font-size: 20px;
+  margin: 20px 10px 20px 10px;
+  font-size: 15px;
   text-align: justify;
   color: #F2DFBB !important;
 }
@@ -88,8 +91,8 @@ h1{
 }
 
 #progressBar{
-  width: 95rem;
-  height: 3rem;
+  width: 75rem;
+  height: 2rem;
   border: 0.2rem solid rgb(11, 223, 36);
   margin-top: 2rem;
   border-radius: 50px;
