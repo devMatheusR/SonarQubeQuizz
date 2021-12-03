@@ -37,10 +37,11 @@ h1{
 .choice-container-2{
   display: flex;
   margin-bottom: 1rem;
-  width: 100%;
+  width: 99%;
   border-radius: 4px;
   background: #F2DFBB !important;
   min-width: 100rem;
+  margin-left: 10px;
 }
 
 .choice-container-2:hover{
@@ -106,9 +107,10 @@ h1{
   width:0%;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 450px){
   .choice-container-2{
-    min-width: 40rem;
+    /* width: 100%; */
+    min-width: 1rem;
   }
 
   #score{

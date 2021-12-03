@@ -91,7 +91,7 @@
   /*Fim das animações*/
 
   /*Responsividade */
-@media (min-width: 300px) and (max-width: 864px) {
+@media (min-width: 300px) and (max-width: 450px) {
     .tela-home{
         width: 100% !important;
         height: 100vh;
